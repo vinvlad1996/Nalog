@@ -1,0 +1,296 @@
+@media (max-width:1920px) {
+    .mainMobile {
+        display: none;
+    }
+    .mobile__btn {
+        display: none;
+    }
+}
+@media (max-width:1040px) {
+    form.example input[type=text] {
+        width: 50%;
+    }
+
+    .mainCard {
+        margin-left: auto;
+        margin-right: auto;
+        display: grid;
+        grid-template-columns: 360px 360px;
+        grid-template-rows: 440.5px;
+        column-gap: 40px;
+    }
+
+    .mainCard__reverse {
+        grid-template-columns: 360px 360px;
+        grid-template-rows: 440.5px;
+    }
+
+    .partners__item {
+        grid-template-columns: repeat(3, 160px);
+        grid-template-rows: repeat(2, 148px);
+    }
+}
+
+@media (max-width:800px) {
+    .header {
+        padding-left: 15px;
+        padding-top: 9px;
+        padding-bottom: 9px;
+    }
+
+    .header__nav {
+        flex-direction: row-reverse;
+    }
+
+    .left {
+        order: 2;
+    }
+
+    .parametr {
+        height: 30px;
+        width: 195px;
+    }
+
+    .dropdown {
+        display:none;
+    }
+
+    .modal {
+        background-color: #FFFFFF;
+    }
+
+    .modal__content {
+        width: 320px;
+    }
+
+    .modal__header {
+        padding-top: 40px;
+        padding-bottom: 32px;
+        font: normal normal bold 16px/24px Open Sans;
+        color: #000000;
+        max-width: 267px;
+        margin-left: 10px;
+    }
+
+    .modal__body {
+        padding-left: 10px;
+    }
+
+    .modal__footer {
+        padding-left: 10px;
+    }
+    
+    button.modal__in {
+        display: inline;
+        margin-left: 0px;
+        width: 300px;
+        margin-top: 7px;
+        margin-bottom: 32px;
+    }
+
+    .search__btn {
+        display: inline;
+    }
+
+    .modal__body_input {
+        width: 292px;
+        height: 54px;
+    }
+
+    .search {
+        padding-left: 0px;
+        text-align: center;
+    }
+
+    .menu {
+        top: 54px;
+    }
+
+    .search__title {
+        font: normal normal 600 20px/27px Open Sans;
+        text-align: center;
+        padding-top: 40px;
+        padding-bottom: 19px;
+    }
+
+    form.example input[type=text] {
+        font: normal normal normal 16px/24px Open Sans;
+        border-radius: 4px;
+        min-width: 260px;
+        padding-left: 12px;
+    }
+
+    .search__description {
+        font: normal normal normal 12px/16px Open Sans;
+        padding-bottom: 40px;
+        max-width: 328px;
+        text-align: left;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .search__btn {
+        display: none;
+    }
+
+     .mobile__btn {
+        display: inline;
+        outline: none;
+        background: transparent;
+        background-image: url(IMG/search.svg);
+        background-repeat: no-repeat;
+        position: relative;
+        top: 12px;
+        left: -40px;
+        width: 30px; 
+        height: 30px; 
+        border: none;
+    }
+
+    .main {
+        display: none;
+    }
+
+    .mainMobile {
+        display: inline;
+    }
+
+    .mainMobile__title {
+        font: normal normal 600 20px/27px Open Sans;
+        color: #000000;
+        text-align: center;
+        padding-bottom: 17px;
+        padding-top: 28px;
+    }
+
+    summary::-webkit-details-marker{display:none;}
+    summary::-moz-list-bullet{list-style-type:none;}
+    summary::marker{display:none;} 
+    summary {
+        display:block;
+        border-bottom: 1px solid #e2e8f0;   
+        cursor: pointer;
+        position: relative;
+    }
+
+    summary:before {  
+        top: 15px;
+        right: 10px;
+        color: transparent;
+        background: url(IMG/arrow.svg) no-repeat 50% 50%;
+        width: 1em;
+        height: 1em;  
+        content: "";
+        position: absolute;
+        transition: transform .5s;
+    }
+
+    details[open] > summary:before {
+        transform: scale(1,-1);
+    }
+
+    summary ~ * {
+        padding: 0 1em 10px 1.4em;
+    }
+
+    details[open] summary ~ *{ 
+        animation: sweep .5s ease-in-out;
+    }
+
+    @keyframes sweep {
+        0%    {opacity: 0;}
+        100%  {opacity: 1;}
+    }
+
+    summary:focus {
+        outline:0;
+        box-shadow: inset 0 0 1px rgba(0,0,0,0.3), inset 0 0 2px rgba(0,0,0,0.3);
+    }
+
+    .informationMobile__title {
+        font: normal normal normal 14px/20px Open Sans;
+        color: #004685;
+        margin-right: 28px;
+        padding: 15px 15px 15px 70px;
+    }
+
+    .informationMobile__title:hover {
+        color: #1d79c9;
+    }
+
+    #one {
+        background-image: url(IMG/one_ac.svg);
+        background-repeat: no-repeat;
+        background-position: 15px 0px;
+    }
+
+    #two {
+        background-image: url(IMG/two_ac.svg);
+        background-repeat: no-repeat;
+        background-position: 15px 0px;
+    }
+
+    #three {
+        background-image: url(IMG/three_ac.svg);
+        background-repeat: no-repeat;
+        background-position: 15px 0px;
+    }
+
+    #four {
+        background-image: url(IMG/four_ac.svg);
+        background-repeat: no-repeat;
+        background-position: 15px 0px;
+    }
+
+    .information__description {
+        padding-top: 10px;
+        font: normal normal normal 14px/20px Open Sans;
+        color: #000000;
+    }
+    
+    .information__description_indent {
+        margin-top: 10px;
+    }
+    
+    .information__bonus {
+        font: normal normal normal 14px/20px Open Sans;
+        color: #000000;
+        padding-top: 10px;
+    }
+
+    .information__title_link {
+        border-bottom: 1px dotted #004685;
+    }
+
+    .partners__title {
+        font: normal normal 600 20px/27px Open Sans;
+        margin-bottom: -20px;
+        padding-top: 27.25px;
+    }
+
+    .partners__item {
+        grid-template-columns: repeat(2, 160px);
+        grid-template-rows: repeat(3, 148px);
+        row-gap: 32px;
+        column-gap: 24px;
+    }
+
+    .footer {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .footer__name {
+        padding-bottom: 17px;
+        padding-top: 20px;
+        font: normal normal 600 12px/16px Open Sans;
+    }
+
+    .footer__picture {
+        padding-bottom: 19.75px;
+    }
+
+    .footer__indent {
+        display: none;
+    }
+}
